@@ -3,7 +3,7 @@
   description = "Apache NetBeans macOS .app wrapper (nixpkgs-25.11-darwin) forcing openjdk25 + app icon via icnsify";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-25.11-darwin";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     mkiconapple.url = "github:juanma151/mk-icon-apple";
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
