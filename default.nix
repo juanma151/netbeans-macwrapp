@@ -52,7 +52,7 @@ in
       installPhase = ''
             set -euo pipefail
 
-            app="$out/NetBeans-JDK25.app"
+            app="$out/Applications/NetBeans-JDK25.app"
             mkdir -p "$app/Contents/MacOS" "$app/Contents/Resources"
 
             # Launcher: force the runtime JDK to openjdk25 from nixpkgs
